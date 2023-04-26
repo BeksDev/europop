@@ -1,0 +1,126 @@
+.content-wrapper {
+    padding: 30px 44px;
+    padding-bottom: 0;
+    border-radius: 12px;
+    h1{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $tabs_color;
+      height: 70px;
+      border-top-right-radius: 12px;
+      border-top-left-radius: 12px;
+      color: $text-color;
+      font-size: 1.1rem;
+      font-family: "November GeLC, Bold";
+  
+      div {
+        position: absolute;
+        top: 0;
+        width: 250px;
+        height: 4px;
+        background-color: $orange_color;
+        border-bottom-right-radius: 4px ;
+        border-bottom-left-radius: 4px ;
+        box-shadow: 0px 0px 10px rgba(239,90,33,0.5);
+      }
+    }
+    .content-box-wrapper {
+      border: 4px solid $banner_color;
+      border-top: none;
+      background-color: $contentbox-color;
+      border-bottom-right-radius: 12px ;
+      border-bottom-left-radius: 12px ;
+      h2{
+        text-align: center;
+        font-size: 1rem;
+        font-family: "November GeLC, Bold";
+        color: $text-color;
+        padding: 20px 0;
+      }
+  
+      .content-box-title {
+        background-color: $banner_color;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+        padding:42px 52px 20px 42px;
+        .row {
+          .col{
+            padding: 0;
+            p{
+              color: #7D7D7D;
+              font-size: 0.8125rem;
+            }
+          }
+        }
+      }
+  
+      .content-box {
+        padding: 24px 32px;
+        padding-top:0;
+        margin-bottom: 24px;
+        background-color: $banner_color;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+        height: 402px;
+        overflow: hidden;
+        overflow-y: scroll;
+        .row {
+          background-color: $background_color;
+          padding: 20px 14px;
+          border-radius: 36px;
+          border: 2px solid $tabs_color;
+          position: relative;
+        }
+        .col {
+          p{
+            font-size: 0.8125rem;
+            font-family: "November GeLC, Regular";
+            color: $text-color;
+          }
+          @media screen and (max-width: 790px) {
+           
+              p {
+                top: 5px !important;
+                left:15px !important
+              }
+            
+          }
+        }
+      }
+    }
+  }
+  
+  
+  .radius {
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(239,90,33,0.5);
+  }
+  
+  
+  .lobby {
+    font-size: 0.875rem;
+    color: $text-color;
+    font-weight: lighter !important;
+  
+    span{
+      color: $orange_color;
+      cursor: pointer;
+    }
+  }
+
+  .btn {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: $orange_color;
+    color: $text-color;
+    font-family: "November GeLC, Regular";
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  

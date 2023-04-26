@@ -1,0 +1,48 @@
+.banner {
+    height: 350px;
+    position: relative;
+    .close {
+      position: absolute;
+      right: 16px;
+      top: 12px;
+      cursor: pointer;
+      background-color: #25292B;
+      display: flex;
+      align-items: center;
+      border-radius: 50px;
+      img {
+          width: 34px;
+      }
+  }
+    .banner-info {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      left: 1rem;
+      top: 0.8rem;
+      background-color: $banner_color;
+      padding: 8px 16px;
+      border-radius: 18px;
+      button {
+          padding:4px 10px ;
+          background-color: $button-color;
+          border: none;
+          border-radius: 18px;
+          color: $text-color;
+          font-family: 'Helvetica Neue LT GEO, Bold';
+          font-size: 0.8rem;
+          cursor: pointer;
+      }
+      p{
+          font-size: 1rem;
+          color: $text-color;
+          margin-left: 12px;
+          font-family: 'Helvetica Neue LT GEO, Bold';
+      }
+    }
+    img {
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
